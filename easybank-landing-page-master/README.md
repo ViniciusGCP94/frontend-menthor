@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Frontend Mentor - Manage landing page
+# Frontend Mentor - Easybank landing page
 
-![Design preview for the Manage landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -21,10 +20,6 @@ Your users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-- See all testimonials in a horizontal slider
-- Receive an error message when the newsletter sign up `form` is submitted if:
-  - The `input` field is empty
-  - The email address is not formatted correctly
 
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
@@ -86,7 +81,7 @@ There are multiple places you can share your solution:
 
 We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
 
-The more specific you are with your questions, the more likely it is that another member of the community will give you feedback.
+The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
 
 ## Got feedback for us?
 
@@ -95,7 +90,3 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-=======
-# FrontEnd-Menthor
-Desafios do site FrontEnd Menthor feitos 
->>>>>>> 72f92697bea660d8ccbf690e2beacbaa3d13ce53
