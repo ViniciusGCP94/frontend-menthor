@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
 /* PRYMARY */    
     --DarkBlue: hsl(233, 26%, 24%);
@@ -82,10 +83,6 @@ nav ul li a:hover {
     transition: box-shadow 0.3s ease;
 }
 
-main {
-    padding-left:130px;
-}
-
 .hero {
     width: 100%;
     height: 90vh;
@@ -95,7 +92,8 @@ main {
 }
 
 .hero-left {
-    width: 42%;
+    width: 38%;
+    margin-left:130px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -106,9 +104,11 @@ main {
     font-family: var(--font-public-sans);
     font-weight: var(--font-weight-regular);
     font-size: 45px;
+    color: var(--DarkBlue);
 }
 
 .hero-text {
+    color: var(--GrayishBlue);
     font-size: var(--font-size-18px);
     line-height: 25px;
     padding: 25px 30px 25px 0;
@@ -132,3 +132,50 @@ main {
     height: 130%; /* Ajusta a altura da imagem para que não saia da área visível */
 }
 
+.sobre {
+    background-color: var(--LightGrayishBlue);
+    padding:50px 0 ;
+}
+
+.container-sobre {
+    margin-left:130px;
+}
+
+.titulo2 {
+    font-family: var(--font-public-sans);
+    font-weight: var(--font-weight-regular);
+    font-size: 30px;
+    color: var(--DarkBlue);
+    padding-top: 40px;
+}
+
+.texto-sobre{
+    width: 50%;
+    font-size: var(--font-size-18px);
+    padding: 20px 0;
+    line-height: 25px;
+    color: var(--GrayishBlue);
+}
+
+.produtos {
+    width: 90%;
+    padding-top: 30px;
+    display: flex;
+}
+
+.produtos div .titulo3 {
+    font-family: var(--font-public-sans);
+    font-weight: var(--font-weight-regular);
+    font-size: 20px;
+    color: var(--DarkBlue);
+    padding: 15px 0;
+}
+
+.online-banking, .simple-budgeting, .fast-onboarding, .open-API, .texto-produto {
+    color: var(--GrayishBlue);
+    font-family: var(--font-public-sans);
+    font-weight: var(--font-weight-regular);
+    font-size: 15px; 
+    line-height: 25px;
+    width: 91% ;
+}
