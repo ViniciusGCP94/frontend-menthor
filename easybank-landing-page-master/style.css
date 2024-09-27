@@ -140,7 +140,6 @@ nav ul li a:hover {
 .sobre, .artigos {
     background-color: var(--LightGrayishBlue);
     padding:50px 0 ;
-    border: 1px solid blue;
 }
 
 .container {
@@ -168,10 +167,9 @@ h2 {
 }
 
 .produtos, .artigo{
+    display: flex;
     width: 90%;
     padding-top: 30px;
-    display: flex;
-    border: 1px solid red;
 }
 
 h3 {
@@ -198,7 +196,6 @@ h3 {
 
 .artigo .article-item {
     width: 24%;
-    border: 1px solid yellowgreen;
 }
 
 .artigo .article-item img {
@@ -237,16 +234,75 @@ h3 {
 
 footer {
     background-color: var(--DarkBlue);
+    padding: 20px 130px;
 }
 
 .footer-easybank {
     display: flex;
+    padding: 20px 0 20px ;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--GrayishBlue);
+}
+
+.footer-easybank .socials-logo  {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
 .footer-easybank .socials {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer-easybank nav ul{
     flex-direction: column;
+}
+
+.navigation-footer ul li a:hover, .socials div a:hover {
+    color: var(--LimeGreen);
+}
+
+/* SVGs devem ficar com a cor limegreen no Hover. Fazer isso em Javascript.
+ .socials div a:hover {
+    color: var(--LimeGreen);
+}*/
+
+.cta-all-rights-reserved {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end ;
+}
+
+.cta-all-rights-reserved .request:hover {
+    box-shadow: 5px 2px 2px var(--GrayishBlue);
+    transition: box-shadow 0.3s ease;
+}
+
+.all-rights-reserved {
+    color: var(--GrayishBlue);
+}
+
+.footer-frontend-mentor {
+    padding: 40px 0 5px 0;
+}
+
+.footer-frontend-mentor .attribution{
+    width: 50%;
+    margin: auto;
+    color: var(--GrayishBlue);
+    text-align: center;
+    border-bottom: 1px solid var(--GrayishBlue);
+}
+
+.footer-frontend-mentor .attribution a {
+    font-weight:var(--font-weight-bold);
+    color: var(--GrayishBlue);
+    text-decoration: none;
+}
+
+.footer-frontend-mentor .attribution a:hover {
+    color: var(--LimeGreen);
 }
